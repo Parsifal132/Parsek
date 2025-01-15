@@ -16,7 +16,7 @@ public class main
             Console.WriteLine("Введите b");
             b = Convert.ToInt32(Console.ReadLine());
             Utils.utils.add_numbers(a, b);
-
+            Utils.utils.multiply_numbers(a, b);
         }
         catch (Exception e) { 
             Console.WriteLine(e.ToString());
