@@ -10,8 +10,9 @@ public class main
     {
         try
         {
-            int a, b;
-            Console.WriteLine("Введите а");//ветка feature/multiply-numbers
+            int a, b; //переменные для ввода
+            Console.WriteLine("Введите а");//ветка feature/multiply-numbers          
+            Console.WriteLine("Введите а");
             a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите b");
             b = Convert.ToInt32(Console.ReadLine());
