@@ -10,7 +10,7 @@ public class main
     {
         try
         {
-            int a, b;
+            int a, b; //переменные для ввода
             Console.WriteLine("Введите а");
             a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите b");
