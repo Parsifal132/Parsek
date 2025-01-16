@@ -11,7 +11,7 @@ public class main
         try
         {
             int a, b;
-            Console.WriteLine("Введите а");
+            Console.WriteLine("Введите а");//ветка feature/multiply-numbers
             a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите b");
             b = Convert.ToInt32(Console.ReadLine());
